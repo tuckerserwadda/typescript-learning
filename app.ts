@@ -19,7 +19,7 @@ document.body.appendChild(heading);
 
 // type annotations 
 let age: number  = 5; // nunmber
-let name: string  = "tucker"; //  string 
+// let name: string  = "tucker"; //  string 
 let isGay: boolean  = true; // boolean
 
 // array
@@ -56,14 +56,14 @@ let employee:{
 
  //enum
  // group of named constants
- enum gone{
+ enum go{
      yes, no
  }
- enum days{
+ enum day{
      mon, tue, wed, thur, fri, sat, sun 
  }
  // check if the day is sunny
- let isSunny = (day:days)=>{
+ let isSunny = (day:day)=>{
      let isSunny: boolean
     switch(day){
         case days.fri:

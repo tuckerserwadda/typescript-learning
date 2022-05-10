@@ -75,3 +75,4 @@ var isSunny = function (day) {
     }
     return isSunny;
 };
+
